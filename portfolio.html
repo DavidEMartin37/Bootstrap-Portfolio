@@ -6,70 +6,56 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bootstrap-Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="index.html">About</a>
-                  <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="contact.html">Contact</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dave</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse container" id="navbarNav">
+              <div class="row w-100">
+                <div class="col-8"></div>
+                <div class="col-4">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                      </ul>
                 </div>
-              </li>
-              
-          </ul>
-          
-        </div>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+              </div>
+            </div>
+        </div>  
       </nav>
       <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-                  <h1><a class="logo" href="index.html">David Martin</a></h1>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-                <h2>Portfolio</h2>  
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-2"><img src="../DavidEMartin37.github.io/assets/images/23472753_1857022457941173_5319135658535782285_n.jpg" alt="David Martin"></div>
-            <div class="col-xs-2"><img src="http://lorempixel.com/300/300/animals/8/cc" alt="Dog"></div>
-            <div class="col-xs-2"><img src="http://lorempixel.com/300/300/sports/" alt="Sports"></div>
-            <div class="col-xs-2"><img src="../DavidEMartin37.github.io/assets/images/23559421_1857022454607840_4341207562630292786_n.jpg" alt="Field"></div>
-            <div class="col-xs-2"><img src="../DavidEMartin37.github.io/assets/images/64657653_2209549499355132_3930955928467144704_n.jpg" alt="Cooper"></div>
-            <div class="col-xs-2"><p></p></div>
-          </div>
-          <div class="row">
-              <div class="col-xs-12">
-                   <h6>Copyright</h6>
+          <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4"><a class="text-white bg-info p-2" href="index.html">David Martin</a></h1>
+                <h2 class="text-info">Portfolio</h2>               
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-4-col-lg-3 vw-100 d-inline p-2 bg-info text-white">Football<img src="../DavidEMartin37.github.io/assets/images/23559421_1857022454607840_4341207562630292786_n.jpg" alt="Field"></div>
+                  <div class="col-12 col-sm-6 col-md-4-col-lg-3 vw-100 d-inline p-2 bg-info text-white">Cooper<img src="../DavidEMartin37.github.io/assets/images/64657653_2209549499355132_3930955928467144704_n.jpg" alt="Cooper"></div>
+                  <div class="col-12 col-sm-6 col-md-4-col-lg-3 vw-100 d-inline p-2 bg-info text-white">Dave<img src="../DavidEMartin37.github.io/assets/images/23472753_1857022457941173_5319135658535782285_n.jpg" alt="David Martin"></div>
+                  <div class="col-12 col-sm-6 col-md-4-col-lg-3 vw-100 d-inline p-2 bg-info text-white">Dog<img src="../DavidEMartin37.github.io/assets/images/64657653_2209549499355132_3930955928467144704_n.jpg" alt="Dog"></div>
+                  <div class="col-12 col-sm-6 col-md-4-col-lg-3 vw-100 d-inline p-2 bg-info text-white">Sports<img src="../DavidEMartin37.github.io/assets/images/23559421_1857022454607840_4341207562630292786_n.jpg" alt="Sports"></div>
+                </div>
               </div>
-          </div>        
-      </div>    
+            </div>          
+      </div>      
+      <ul class="nav justify-content-center bg-info p-3">
+          <li class="nav-item">
+            Copyright
+          </li>
+      </ul>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
 </body>
 </html>
